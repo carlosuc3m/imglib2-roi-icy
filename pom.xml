@@ -10,21 +10,21 @@
 	</parent>
 
     <artifactId>imglib2-roi-icy</artifactId>
-    <version>6.2.0</version>
+    <version>0.14.1</version>
 
-    <name>ImgLib2 Icy</name>
-    <description>ImgLib2 wrappers for Icy sequences.
+    <name>ImgLib2-roi Icy</name>
+    <description>A wrapper for ImgLib2-roi in Icy
 	</description>
 	
 	<properties>
-		<artifact-to-include>imglib2</artifact-to-include>
+		<artifact-to-include>imglib2-roi</artifact-to-include>
 	</properties>
 
     <dependencies>
 		<dependency>
-			<groupId>net.imglib2</groupId>
-			<artifactId>imglib2</artifactId>
-		  <version>6.2.0</version>
+		    <groupId>net.imglib2</groupId>
+		    <artifactId>imglib2-roi</artifactId>
+		    <version>0.14.1</version>
 		</dependency>
     </dependencies>
 
