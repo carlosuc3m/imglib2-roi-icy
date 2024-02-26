@@ -9,7 +9,7 @@
         <version>2.1.5</version>
 	</parent>
 
-    <artifactId>imglib2-icy</artifactId>
+    <artifactId>imglib2-roi-icy</artifactId>
     <version>6.2.0</version>
 
     <name>ImgLib2 Icy</name>
